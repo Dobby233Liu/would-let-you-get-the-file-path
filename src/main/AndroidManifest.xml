@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.dobby233liu.android.wlygtfp" >
+
+    <application
+        android:label="Would Let You Get The File Path"
+        android:theme="@android:style/Theme.NoDisplay" >
+        <activity
+            android:name=".MainActivity"
+            >
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+			<!--<intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="*/*" />
+            </intent-filter>-->
+        </activity>
+    </application>
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>
