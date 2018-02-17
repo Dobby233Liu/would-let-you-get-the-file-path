@@ -8,8 +8,8 @@ android {
         applicationId "com.github.dobby233liu.android.wlygtfp"
         minSdkVersion 14
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1_just_do_it"
     }
     buildTypes {
         release {

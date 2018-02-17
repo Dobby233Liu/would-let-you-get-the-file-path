@@ -38,6 +38,9 @@ public class MainActivity extends Activity
 	cm.setText(path);
 	Toast.makeText(this,"已复制位置",Toast.LENGTH_LONG).show();
 	finish();
+	}else{
+	Toast.makeText(this,"不要直接打开我的软件！！！用法：点开一个文件，然后选择用这个程序打开",Toast.LENGTH_LONG).show();
+finish();
 	}
 	/**else if(Intent.ACTION_SEND==action){
 	Bundle bundle = intent.getExtras();
@@ -77,6 +80,9 @@ public class MainActivity extends Activity
 	cm.setText(path);
 	Toast.makeText(this,"已复制位置",Toast.LENGTH_LONG).show();
 	finish();
+	}else{
+	Toast.makeText(this,"不要直接打开我的软件！！！用法：点开一个文件，然后选择用这个程序打开",Toast.LENGTH_LONG).show();
+finish();
 	}
 /**	else if(Intent.ACTION_SEND==action){
 	Bundle bundle = intent.getExtras();
