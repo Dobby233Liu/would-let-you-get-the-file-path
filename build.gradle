@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.github.dobby233liu.android.wlygtfp"
-        minSdkVersion 14
+        minSdkVersion 3
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
